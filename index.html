@@ -12,14 +12,7 @@
 <body>
   <header>  
     <h2>San Francisco United State</h2>   
-    <div class="active">
-      <label for="s5" class="show-item">Show 5</label>
-      <label for="s10" class="show-item">Show 10</label>
-      <label for="s-all" class="show-item">Show all</label>
-
-      <label for="grid" class="show-item">Grid view</label>
-      <label for="list" class="show-item">List view</label> 
-    </div>
+    
   </header>
   <main>
     <div class="main_header">
@@ -28,14 +21,13 @@
     </div>
     
     <div class="wrap">
-
-      <input type="radio" name="show" id="grid" checked=""/>
-      <input type="radio" name="show" id="list"/>
-
-      <input type="radio" name="show" id="s5"/>
-      <input type="radio" name="show" id="s10"/>
-      <input type="radio" name="show" id="s-all" checked=""/>   
-
+      <form>      
+        <input type="radio" name="show" id="s5"/><label for="s5" class="show-item">Show 5</label>
+        <input type="radio" name="show" id="s10" checked=""/> <label for="s10" class="show-item">Show 10</label>
+        <input type="radio" name="show" id="s-all"/><label for="s-all" class="show-item">Show all</label>
+        <input type="radio" name="show" id="grid"/> <label for="grid" class="show-item">Grid view</label>
+        <input type="radio" name="show" id="list" checked=""/><label for="list" class="show-item">List view</label> 
+      </form>
       <div class="item">
         <div class="header">
           <div class="header-side-left clearfix">
@@ -99,7 +91,7 @@
           </div>
           <div class="content-wrapper">
             <h4 class="content-title">
-              Airbnb HQ 1
+              Airbnb HQ 2
             </h4>
             <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
           </div>
