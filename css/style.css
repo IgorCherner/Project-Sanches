@@ -109,8 +109,8 @@ h2 {
 	margin-right: 20px;
 }
 #list:checked ~ .item .content-wrapper {
-  text-align: left;
-  padding-top: 10px;
+	text-align: left;
+	padding-top: 10px;
 }
 #list:checked ~ .item h4.content-title {
 	padding-top: 0;
@@ -120,6 +120,7 @@ h2 {
 }
 /*--------------------------------------------------*/
 .show-item {
+	width: 100%;
 	font-size: 1.05rem;
 	padding: 8px 18px;
 	line-height: 31px;
@@ -133,6 +134,11 @@ h2 {
 	opacity: .7;
 	transition: .3s;
 }
+.show-item:active {
+	background: green;
+}
+
+	
 /*-----------------------------------*/
 .main_header {
 	padding-top: 54px;
@@ -247,21 +253,15 @@ li {
 	header {justify-content: center;}
 	.item {width: 50%;}
 }
-/*@media screen and (max-width: 680px) {
-	.active {margin-top: 20px; line-height: 45px;}
-	.show-item {padding: 7px 13px; font-size: .8rem; margin-left: 0;}
-	.head {display: block;}
+@media screen and (max-width: 400px) {
+	.main_header {padding-top: 160px;}
+	.item {width: 100%;}
+	.active {text-align: center;}
+	.show-item {padding: 7px 22px;}
+	.main_header {justify-content: center;}
 	.head-icon {display: none;}
-	}*/
-	@media screen and (max-width: 400px) {
-		.main_header {padding-top: 160px;}
-		.item {width: 100%;}
-		.active {text-align: center;}
-		.show-item {padding: 7px 22px;}
-		.main_header {justify-content: center;}
-		.head-icon {display: none;}
-	}
-	@media screen and (max-width: 330px) {
-		h2 {font-size: 2.5rem;}
-		.show-item {padding: 7px 14px;}
-	}
+}
+@media screen and (max-width: 330px) {
+	h2 {font-size: 2.5rem;}
+	.show-item {padding: 7px 14px;}
+}
