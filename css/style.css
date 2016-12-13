@@ -101,6 +101,10 @@ h2 {
 	height: 200px;
 	transition: max-width .2s ease-out;
 }
+
+#list:checked ~ .wrap .item .header-side-left {width: 48%;}
+#list:checked ~ .wrap .item p.title-header {width: 17%;}
+
 #list:checked ~ .wrap .item .content {
 	display: flex;
 	justify-content: flex-start;
@@ -289,13 +293,17 @@ li {
 @media screen and (max-width: 1024px) {
 	.main_header {padding-top: 5px;}
 	.item {max-width: 33.3%;}
+	p.title-header {width: 37%;}
 	h2 {text-align: center;}
 	.active {margin-top: 10px;}
+    #list:checked ~ .wrap .item p.title-header {width: 22%;}
 }
 @media screen and (max-width: 768px) {		
     header {justify-content: center;}
 	.item {max-width: 50%;}
 	.main_header {padding-top: 5px;}
+	p.title-header {width: 32%;}
+	#list:checked ~ .wrap .item p.title-header {width: 30%;}
 	.show-item:nth-of-type(5) {top: 72px;}
 	.show-item:nth-of-type(4) {top: 72px;}
 	.show-item:nth-of-type(3) {top: 72px;}
@@ -303,6 +311,7 @@ li {
 	.show-item:nth-of-type(1) {top: 72px;}
 }
 @media screen and (max-width: 670px) {
+	#list:checked ~ .wrap .item p.title-header {width: 35%;}
 	.show-item {width: 66px;}
 	.show-item:nth-of-type(4) {right: 86px;}
 	.show-item:nth-of-type(3) {right: 157px;}
@@ -310,6 +319,7 @@ li {
 	.show-item:nth-of-type(1) {right: 299px;}
 }
 @media screen and (max-width: 580px) {
+	#list:checked ~ .wrap .item p.title-header {width: 43%;}
 	.show-item {width: 55px; font-size: .8rem}
 	.show-item:nth-of-type(4) {right: 75px;}
 	.show-item:nth-of-type(3) {right: 136px;}
@@ -319,6 +329,9 @@ li {
 @media screen and (max-width: 415px) {
 	.item {max-width: 100%;}
 	.main_header {justify-content: center; padding-top: 45px;}
+	#list:checked ~ .wrap .item .header-side-left {width: 90%;}
+	#list:checked ~ .wrap .item p.title-header {width: 31%;}
+	p.title-header {width: 30%;}
 	.head-icon {display: none;}
 	.show-item:nth-of-type(5) {right: 45px;}
 	.show-item:nth-of-type(4) {right: 112px;}
@@ -334,6 +347,7 @@ li {
 }
 @media screen and (max-width: 380px) {
 	.main_header {padding-top: 45px;}
+	#list:checked ~ .wrap .item p.title-header {width: 35%;}
 	.show-item:nth-of-type(5) {right: 15px;}
 	.show-item:nth-of-type(4) {right: 88px;}
 	.show-item:nth-of-type(3) {left: 161px;}
@@ -348,6 +362,7 @@ li {
 }
 @media screen and (max-width: 320px) {
 	h2 {font-size: 2.5rem;}
+	#list:checked ~ .wrap .item p.title-header {width: 42%;}
 	.show-item {font-size: .7rem;}
 	.show-item:nth-of-type(5) {right: 15px;}
 	.show-item:nth-of-type(4) {right: 74px;}
