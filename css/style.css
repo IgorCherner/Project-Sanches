@@ -92,14 +92,14 @@ h2 {
 }
 /*--------------------------------------------*/
 #list:checked ~ .wrap {
-	/*display: block;*/
+	justify-content: flex-start;
 }
 
 #list:checked ~ .wrap .item {
 	max-width: 100%;
 	width: 100%;
 	height: 200px;
-	transition: max-width .2s ease-out;
+	transition: all .4s ease-out;
 }
 
 #list:checked ~ .wrap .item .header-side-left {width: 48%;}
