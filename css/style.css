@@ -94,14 +94,12 @@ h2 {
 #list:checked ~ .wrap {
 	justify-content: flex-start;
 }
-
 #list:checked ~ .wrap .item {
 	max-width: 100%;
 	width: 100%;
 	height: 200px;
 	transition: all .4s ease-out;
 }
-
 #list:checked ~ .wrap .item .header-side-left {width: 48%;}
 #list:checked ~ .wrap .item p.title-header {width: 22%;}
 
@@ -132,8 +130,8 @@ input:checked + label {
 /*--------------------------------------------------*/
 .show-item {
 	width: 80px;
-    height: 30px;
-    line-height: 30px;
+	height: 30px;
+	line-height: 30px;
 	font-size: 1.05rem;	
 	color: #fff;
 	text-transform: uppercase;
@@ -237,9 +235,9 @@ p.title-header {
 	width: 26px;
 	line-height: 56px;
 	-webkit-transform: rotate(45deg);
-	    -ms-transform: rotate(45deg);
-	     -o-transform: rotate(45deg);
-	        transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .content {
 	background-color: #fff;
@@ -297,10 +295,10 @@ li:nth-child(1) {
 	p.title-header {width: 37%;}
 	h2 {text-align: center;}
 	.active {margin-top: 10px;}
-    #list:checked ~ .wrap .item p.title-header {width: 22%;}
+	#list:checked ~ .wrap .item p.title-header {width: 22%;}
 }
 @media screen and (max-width: 768px) {		
-    header {justify-content: center;}
+	header {justify-content: center;}
 	.item {max-width: 50%;}
 	.main_header {padding-top: 5px;}
 	p.title-header {width: 32%;}
