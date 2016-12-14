@@ -103,7 +103,7 @@ h2 {
 }
 
 #list:checked ~ .wrap .item .header-side-left {width: 48%;}
-#list:checked ~ .wrap .item p.title-header {width: 17%;}
+#list:checked ~ .wrap .item p.title-header {width: 22%;}
 
 #list:checked ~ .wrap .item .content {
 	display: flex;
@@ -226,14 +226,12 @@ p.title-header {
 	float: left;
 	line-height: 41px;
 	padding-left: 10px;
+	font-size: 1.3rem;
 	color: #fff;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	width: 40%;
 	white-space: nowrap;
-}
-.header-side-right {
-	/*padding: 1px 15px;*/
 }
 .fa-thumb-tack {
 	width: 26px;
@@ -268,26 +266,29 @@ p.content-subtitle {
 	height: 20%;
 	background-color: #A2AEB1;
 }
+.footer-side-left {
+	padding-left: 5px;
+}
+.footer-side-right {
+	padding-right: 10px;
+}
 .footer-menu {
 	list-style: none;
-	line-height: 48px;
 }
 li {
 	display: inline;
-	line-height: 40px;
-	padding-right: 5px;
+	font-size: 1.2rem;
+	padding-right: 8px;
+}
+li:nth-child(1) {
+	padding-right: 0px;
 }
 .footer-menu li a.link {
 	color: #fff;
-	padding-right: 10px;
 }
 .fa {
+	font-size: 1.3rem;
 	color: #fff;
-}
-.fa-thumbs-up {
-	width: 30px;
-	height: 30px;
-	padding-left: 18px;
 }
 /*----------------@media--------------------*/
 @media screen and (max-width: 1024px) {
