@@ -91,15 +91,30 @@ h2 {
 	display: none;
 }
 /*--------------------------------------------*/
-#list:checked ~ .wrap {
-	justify-content: flex-start;
+#grid:checked ~ .wrap .item {
+	animation: smooth_grid 1s linear;
+}
+@keyframes smooth_grid {
+	 0% {opacity: .15;}
+	25% {opacity: .35}
+	50% {opacity: .65}
+	75% {opacity: .85}
+	100% {opacity: 1;}
 }
 #list:checked ~ .wrap .item {
 	max-width: 100%;
 	width: 100%;
 	height: 200px;
-	transition: all .4s ease-out;
+	animation: smooth_list 1s linear;
 }
+@keyframes smooth_list {
+	 0% {opacity: .15;}
+	25% {opacity: .35}
+	50% {opacity: .65}
+	75% {opacity: .85}
+	100% {opacity: 1;}
+}
+
 #list:checked ~ .wrap .item .header-side-left {width: 48%;}
 #list:checked ~ .wrap .item p.title-header {width: 22%;}
 
@@ -172,7 +187,6 @@ input:checked + label {
 }
 /*-----------------------------------*/
 .main_header {
-	/*padding-top: 54px;*/
 	display: flex;
 	align-items: center;
 }
@@ -205,7 +219,7 @@ h3 {
 .header {
 	display: flex;
 	justify-content: space-between;
-	align-items: center
+	align-items: center;
 	width: 100%;
 	height: 25%;
 	background-color: #DF264C; 
@@ -213,6 +227,9 @@ h3 {
 .header-side-left {
 	width: 100%;
 	padding: 2px 15px;
+}
+.header-side-right {
+	padding-right: 15px;
 }
 .photo {
 	width: 41px;
@@ -232,12 +249,11 @@ p.title-header {
 	white-space: nowrap;
 }
 .fa-thumb-tack {
-	width: 26px;
-	line-height: 56px;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
+	-webkit-transform: rotate(35deg);
+	    -ms-transform: rotate(35deg);
+	     -o-transform: rotate(35deg);
+	        transform: rotate(35deg);
+	        cursor: pointer;
 }
 .content {
 	background-color: #fff;
