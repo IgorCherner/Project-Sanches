@@ -45,6 +45,7 @@ html {
 	font-size: 10px; 
 }
 body {
+	position: relative;
 	font-family: sans-serif;
 	background-color: #EFEFF0;
 }
@@ -96,10 +97,10 @@ h2 {
 }
 @keyframes smooth_grid {
 	 0% {opacity: .15;}
-	25% {opacity: .35}
-	50% {opacity: .65}
-	75% {opacity: .85}
-	100% {opacity: 1;}
+	25% {opacity: .35;}
+	50% {opacity: .65;}
+	75% {opacity: .85;}
+	100% {opacity:  1;}
 }
 #list:checked ~ .wrap .item {
 	max-width: 100%;
@@ -109,20 +110,26 @@ h2 {
 }
 @keyframes smooth_list {
 	 0% {opacity: .15;}
-	25% {opacity: .35}
-	50% {opacity: .65}
-	75% {opacity: .85}
-	100% {opacity: 1;}
+	25% {opacity: .35;}
+	50% {opacity: .65;}
+	75% {opacity: .85;}
+	100% {opacity:  1;}
 }
 
 #list:checked ~ .wrap .item .header-side-left {width: 48%;}
 #list:checked ~ .wrap .item p.title-header {width: 22%;}
 
 #list:checked ~ .wrap .item .content {
+	position: relative;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 	padding: 0;
+}
+#list:checked ~ .wrap .item .content .modal_details {
+	position: absolute;
+	left: 143px;
+	bottom: 10px;
 }
 #list:checked ~ .wrap .item .content .img-wrapper {
 	max-width: 125px;
@@ -216,6 +223,24 @@ h3 {
 	height: 200px;
 	padding: 8px;
 }
+.modal_details {
+	margin-top: 5px;
+	padding: 5px 20px;
+	border: none;
+	border-radius: 3px;
+	background: #A2AEB1;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	word-spacing: .9px;
+	color: #fff;
+	box-shadow: 2px 1px 2px rgba(0, 3, 3, 0.15);
+	cursor: pointer;
+	transition: .3s;
+}
+.modal_details:hover {
+	background: #DF264C;
+	opacity: .5;
+}
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -303,6 +328,32 @@ li:nth-child(1) {
 .fa {
 	font-size: 1.3rem;
 	color: #fff;
+}
+
+#modal_windows {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+	border-radius: 3px;
+	border: 2px solid #000;
+	opacity: 0.6;
+	/*z-index: 5;*/
+}
+#modal_windows #modal_close {
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	color: #000;
+	font-size: 2rem;
+	cursor: pointer;
+}
+#modal_windows #modal_close:hover {
+	opacity: .5;
 }
 /*----------------@media--------------------*/
 @media screen and (max-width: 1024px) {
