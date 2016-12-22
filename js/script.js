@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+	$('.modal_details').click(function(e) {
+		var title = $(this).data('title'), 
+		description = $(this).data('description');
+		$('.mod_title').text('modal title');
+		$('.mod_description').text('modal description');
+
+	});
+
+	
+
 	$('.modal_details').click(function() {
 		$('#modal_windows').addClass('modal_windows_open');
 	});
@@ -7,8 +17,8 @@ $(document).ready(function() {
 	$('#modal_close').click(function() {
 		$('#modal_windows').removeClass('modal_windows_open');
 	});
-	
-	// ----------------------------------------------------------
+
+	//----------------------------------------------
 	// $('.modal_details').click(function(){
 	// 	$('#modal_windows').fadeIn('slow');
 	// })
@@ -38,7 +48,5 @@ $(document).ready(function() {
 	// 		height: 0
 	// 	}, 1000);
 	// });
-// -------------------------------------------------------
-	
 });
 
