@@ -1,22 +1,20 @@
 $(document).ready(function() {
 
-	$('.modal_details').click(function(e) {
+	$('input[type="button"]').click(function(e) {
 		var title = $(this).data('title'), 
 		description = $(this).data('description');
-		$('.mod_title').text('modal title');
-		$('.mod_description').text('modal description');
-
+		$('.mod_title').text(title);
+		$('.mod_description').text(description);
 	});
 
-	
-
-	$('.modal_details').click(function() {
+	$('input[type="button"]').click(function() {
 		$('#modal_windows').addClass('modal_windows_open');
 	});
 
 	$('#modal_close').click(function() {
 		$('#modal_windows').removeClass('modal_windows_open');
 	});
+});
 
 	//----------------------------------------------
 	// $('.modal_details').click(function(){
@@ -48,5 +46,12 @@ $(document).ready(function() {
 	// 		height: 0
 	// 	}, 1000);
 	// });
-});
+// -------------------------------------------------------
+// $('.modal_details').click(function() {
+	// 	var title = $(this).data('title'),
+	// 	description = $(this).data('description');
+	// 	$('.modal-img-wrapper').html('<h2>'+title+'</h2><p>'+description+'</p>');
+	// });
+	
+
 
