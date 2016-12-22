@@ -241,6 +241,11 @@ h3 {
 	background: #DF264C;
 	opacity: .5;
 }
+/*[data-title="title"] {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	color: yellow;
+}*/
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -371,15 +376,23 @@ li:nth-child(1) {
 #modal_windows #modal_close:hover {
 	opacity: .5;
 }
-#modal_windows .modal-title {
-	margin-top: 15px;
+#modal_windows .mod_title {
+	font-size: 3rem;
+	margin-top: 10px;
 	text-align: center;
-	color: #fff;
+	color: lightblue;
+	text-transform: uppercase;
+}
+#modal_windows .mod_description {
+	font-size: 2rem;
+	text-align: center;
+	color: yellow;
 }
 #modal_windows .modal-img-wrapper {
 	width: 640px;
 	margin: 25px auto;
 	opacity: 1;
+	/*color: #fff;*/
 }
 .modal-img {
 	border-radius: 5px;
