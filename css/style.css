@@ -348,13 +348,13 @@ li:nth-child(1) {
 	right: 0;	
 	top: 0;
 	bottom: 0;
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
-	background: #000;
+	background: #2F2F2F;
 	opacity: 0;
 	overflow: hidden;
 	transform: scale(0, 0);
-	transition:all 2s ease-in-out;
+	transition:all 1s ease-in-out;
 }
 #modal_windows.modal_windows_open {
 	opacity: 1;
@@ -371,36 +371,57 @@ li:nth-child(1) {
 #modal_windows #modal_close:hover {
 	opacity: .5;
 }
-#modal_windows .mod_title {
-	font-size: 3rem;
-	margin-top: 10px;
-	text-align: center;
-	color: lightblue;
-	text-transform: uppercase;
+.container {
+	background: #171717;
+	max-width: 960px;
+	margin: 0 auto;
 }
-#modal_windows .mod_description {
+#modal_windows .mod_title {
 	font-size: 2rem;
-	text-align: center;
-	color: yellow;
+	padding: 10px;
+	color: #fff;
 }
 #modal_windows .modal-img-wrapper {
-	width: 640px;
-	margin: 25px auto;
-	opacity: 1;
-	/*color: #fff;*/
+	max-width: 100%;
+	height: 440px;
+	margin: 30px auto 0 auto;
 }
-.modal-img {
-	border-radius: 5px;
-	box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+img.modal-img {
+	max-width: 100%;
+	height: 440px;
+	display: block;
+	margin: 0 auto;
+	padding: 35px;
 }
-form {
-	text-align: center;
+.wrapper_description {
+	max-width: 100%;
+	height: 100px;
+	background: #fff;
+	padding: 10px;
 }
-#modal_windows .but {
-	padding: 5px 7px;
-	border-radius: 3px;
-	font-size: 1.2rem;
+.subtitle_wrapper {
+	display: flex;
+	margin-bottom: 5px;
 }
+.circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: #000;
+}
+h5.a_name {
+	color: #577395 ;
+	padding: 10px;	
+}
+hr {
+	opacity: .3;
+}
+#modal_windows .mod_description {
+	font-size: 1.5rem;
+	color: #000;
+	
+}
+
 /*----------------@media--------------------*/
 @media screen and (max-width: 1024px) {
 	.main_header {padding-top: 5px;}
