@@ -6,7 +6,6 @@ $(document).ready(function() {
 		$('.mod_title').text(title);
 		$('.mod_description').text(description);
 		var src = $(this).data('image');
-		console.log(src);
 		$('#modal_windows .modal-img').attr('src',src);
 	});
 
