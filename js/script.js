@@ -16,4 +16,15 @@ $(document).ready(function() {
 	$('#modal_close').click(function() {
 		$('#modal_windows').removeClass('modal_windows_open');
 	});
+	
+	$('.fa-comment').click( function() {
+
+		$.ajax({
+			url: '../tile.html',
+			success: function(data) {
+				$('#ajax').html(data);
+			}
+		});
+
+	});
 });
