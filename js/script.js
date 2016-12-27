@@ -9,22 +9,24 @@ $(document).ready(function() {
 		$('#modal_windows .modal-img').attr('src',src);
 	});
 
-	$('input[type="button"]').click(function() {
-		$('#modal_windows').addClass('modal_windows_open');
-	});
+	// $('input[type="button"]').click(function() {
+	// 	$('#modal_windows').addClass('modal_windows_open');
+	// });
 
 	$('#modal_close').click(function() {
 		$('#modal_windows').removeClass('modal_windows_open');
 	});
 	
-	$('.fa-comment').click( function() {
+	$('input[type="button"]').click(function() {
 
 		$.ajax({
-			url: '../tile.html',
+			url: '../modal.html',
 			success: function(data) {
-				$('#ajax').html(data);
+				$('#modal_windows').html(data);
 			}
 		});
+
+		$('#modal_windows').addClass('modal_windows_open');
 
 	});
 });
