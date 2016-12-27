@@ -14,211 +14,207 @@
 <body>
   <header>  
     <h2>San Francisco United State</h2>   
-</header>
-<main>
+  </header>
+  <div id="ajax"></div>
+  <main>
     <div class="main_header">
       <div class="head-icon clearfix"></div>
       <h3>Places to sleep</h3>  
-  </div>
-
-  <input type="radio" name="show" id="s5"/><label for="s5" class="show-item">Show 5</label>
-  <input type="radio" name="show" id="s10" checked=""/> <label for="s10" class="show-item">Show 10</label>
-  <input type="radio" name="show" id="s-all"/><label for="s-all" class="show-item">Show all</label>
-  <input type="radio" name="type" id="grid"/> <label for="grid" class="show-item">Grid view</label>
-  <input type="radio" name="type" id="list" checked=""/><label for="list" class="show-item">List view</label> 
-
-  <div class="wrap">
+    </div>
+    
+    <input type="radio" name="show" id="s5"/><label for="s5" class="show-item">Show 5</label>
+    <input type="radio" name="show" id="s10" checked=""/> <label for="s10" class="show-item">Show 10</label>
+    <input type="radio" name="show" id="s-all"/><label for="s-all" class="show-item">Show all</label>
+    <input type="radio" name="type" id="grid"/> <label for="grid" class="show-item">Grid view</label>
+    <input type="radio" name="type" id="list" checked=""/><label for="list" class="show-item">List view</label> 
+    
+    <div class="wrap">
       <div class="item" data-item="1">
         <div class="header">
           <div class="header-side-left clearfix">
             <img src="img/photo1.png" alt="#" class="photo">
             <p class="title-header">Piter Lundeen Smit</p>
-        </div>
-        <div class="header-side-right">
+          </div>
+          <div class="header-side-right">
             <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+          </div>
         </div>
-    </div>
-    <div class="content">
-     <div class="img-wrapper">
-       <img src="http://placehold.it/125x100"  alt="#">
-   </div>
-   <div class="content-wrapper">
-       <h4 class="content-title">
-         Airbnb HQ 1
-     </h4>
-     <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
- </div>          
+        <div class="content">
+           <div class="img-wrapper">
+             <img src="http://placehold.it/125x100"  alt="#">
+           </div>
+           <div class="content-wrapper">
+             <h4 class="content-title">
+               Airbnb HQ 1
+             </h4>
+             <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+           </div>          
 
- <input type="button" class="modal_details" data-title="Title of PopUp" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit." data-image="img/photo-1.jpg" value="Show details">
-</div>
-<div class="footer">
- <div class="footer-side-left">
-   <ul class="footer-menu">
-     <li><a href="#">
-       <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-   </li>
-   <li><a href="#" class="link">0</a></li>
-   <li><a href="#" class="link">Like</a>
-   </li>
-   <li><a href="#" class="link">Share</a>
-   </li>
-</ul>
-</div>
-<div class="footer-side-right">
-    <ul class="footer-menu">
-      <li>
-        <a href="#">
-          <i class="fa fa-comment" aria-hidden="true"></i>
-      </a>
-  </li>
-  <li><a href="#" class="link">1</a>
-  </li>
-</ul>
-</div>
-</div> 
-</div><!-- item-1 -->
-<div class="item" data-item="2">
- <div class="header">
-   <div class="header-side-left clearfix">
-     <img src="img/photo1.png" alt="#" class="photo">
-     <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
-     <i class="fa fa-thumb-tack" aria-hidden="true"></i>
- </div>
-</div>
-<div class="content">
-  <div class="img-wrapper">
-    <img src="http://placehold.it/125x100" alt="#">
-</div>
-<div class="content-wrapper">
-    <h4 class="content-title">
-      Airbnb HQ 2
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>  
-</div>
-<input type="button" class="modal_details" data-title="New title" data-description="New text" data-image="img/photo-2.jpg" value="Show details">
-</div>
-<div class="footer">
-  <div class="footer-side-left">
-    <ul class="footer-menu">
-      <li><a href="#">
-        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
-</div> 
-</div><!-- item-2 -->
-<div class="item" data-item="3">
- <div class="header">
-   <div class="header-side-left clearfix">
-     <img src="img/photo1.png" alt="#" class="photo">
-     <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
-     <i class="fa fa-thumb-tack" aria-hidden="true"></i>
- </div>
-</div>
-<div class="content">
-  <div class="img-wrapper">
-    <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
-    <h4 class="content-title">
-      Airbnb HQ 3
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>          
-<input type="button" class="modal_details" data-title="New title title" data-description="New text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod." data-image="img/photo-3.jpg" value="Show details">        
-</div>
-<div class="footer">
-  <div class="footer-side-left">
-    <ul class="footer-menu">
-      <li><a href="#">
-        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
-</div> 
+           <input type="button" class="modal_details" data-title="Title of PopUp" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit." data-image="img/photo-1.jpg" value="Show details">
+         </div>
+       <div class="footer">
+         <div class="footer-side-left">
+           <ul class="footer-menu">
+             <li>
+               <a href="#">
+                 <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+               </a>
+             </li>
+             <li><a href="#" class="link">0</a></li>
+             <li><a href="#" class="link">Like</a></li>
+             <li><a href="#" class="link">Share</a></li>
+           </ul>
+         </div>
+         <div class="footer-side-right">
+            <ul class="footer-menu">
+              <li><a href="#"><i class="fa fa-comment" aria-hidden="true"></i></a></li>
+              <li><a href="#" class="link">1</a></li>
+            </ul>
+          </div>
+        </div> 
+      </div><!-- item-1 -->
+    <div class="item" data-item="2">
+     <div class="header">
+       <div class="header-side-left clearfix">
+         <img src="img/photo1.png" alt="#" class="photo">
+         <p class="title-header">Piter Lundeen Smit</p>
+       </div>
+       <div class="header-side-right">
+         <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+       </div>
+     </div>
+     <div class="content">
+      <div class="img-wrapper">
+        <img src="http://placehold.it/125x100" alt="#">
+      </div>
+      <div class="content-wrapper">
+        <h4 class="content-title">
+          Airbnb HQ 2
+        </h4>
+        <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>  
+      </div>
+      <input type="button" class="modal_details" data-title="New title" data-description="New text" data-image="img/photo-2.jpg" value="Show details">
+    </div>
+    <div class="footer">
+      <div class="footer-side-left">
+        <ul class="footer-menu">
+          <li><a href="#">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" class="link">0</a></li>
+          <li><a href="#" class="link">Like</a>
+          </li>
+          <li><a href="#" class="link">Share</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-side-right">
+       <ul class="footer-menu">
+         <li>
+           <a href="#">
+             <i class="fa fa-comment" aria-hidden="true"></i>
+           </a>
+         </li>
+         <li><a href="#" class="link">1</a>
+         </li>
+       </ul>
+     </div>
+   </div> 
+ </div><!-- item-2 -->
+ <div class="item" data-item="3">
+   <div class="header">
+     <div class="header-side-left clearfix">
+       <img src="img/photo1.png" alt="#" class="photo">
+       <p class="title-header">Piter Lundeen Smit</p>
+     </div>
+     <div class="header-side-right">
+       <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+     </div>
+   </div>
+   <div class="content">
+    <div class="img-wrapper">
+      <img src="http://placehold.it/125x100"  alt="#">
+    </div>
+    <div class="content-wrapper">
+      <h4 class="content-title">
+        Airbnb HQ 3
+      </h4>
+      <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+    </div>          
+    <input type="button" class="modal_details" data-title="New title title" data-description="New text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod." data-image="img/photo-3.jpg" value="Show details">        
+  </div>
+  <div class="footer">
+    <div class="footer-side-left">
+      <ul class="footer-menu">
+        <li><a href="#">
+          <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="#" class="link">0</a></li>
+        <li><a href="#" class="link">Like</a>
+        </li>
+        <li><a href="#" class="link">Share</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-side-right">
+     <ul class="footer-menu">
+       <li>
+         <a href="#">
+           <i class="fa fa-comment" aria-hidden="true"></i>
+         </a>
+       </li>
+       <li><a href="#" class="link">1</a>
+       </li>
+     </ul>
+   </div>
+ </div> 
 </div><!-- item-3 -->
 <div class="item" data-item="4">
  <div class="header">
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 4
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>           
-<input type="button" class="modal_details" data-image="img/photo-4.jpg" value="Show details">   
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>           
+  <input type="button" class="modal_details" data-image="img/photo-4.jpg" value="Show details">   
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-4 -->
 <div class="item" data-item="5">
@@ -226,47 +222,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 5
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>           
-<input type="button" class="modal_details" class="item_details" value="Show details">         
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>           
+  <input type="button" class="modal_details" class="item_details" value="Show details">         
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-5 -->
 <div class="item" data-item="6">
@@ -274,47 +270,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 6
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>           
-<input type="button" class="modal_details" class="item_details" value="Show details">          
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>           
+  <input type="button" class="modal_details" class="item_details" value="Show details">          
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-6 -->
 <div class="item" data-item="7">
@@ -322,47 +318,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 7
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>           
-<input type="button" class="modal_details" class="item_details" value="Show details">          
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>           
+  <input type="button" class="modal_details" class="item_details" value="Show details">          
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-7 -->
 <div class="item" data-item="8">
@@ -370,47 +366,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 8
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>          
-<input type="button" class="modal_details" name="item_details" value="Show details">         
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>          
+  <input type="button" class="modal_details" name="item_details" value="Show details">         
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+  </div>
 </div> 
 </div><!-- item-8 -->
 <div class="item" data-item="9">
@@ -418,47 +414,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 9
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>          
-<input type="button" class="modal_details" name="item_details" value="Show details">          
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>          
+  <input type="button" class="modal_details" name="item_details" value="Show details">          
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-9 -->
 <div class="item" data-item="10">
@@ -466,47 +462,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 10
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>           
-<input type="button" class="modal_details" name="item_details" value="Show details">          
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>           
+  <input type="button" class="modal_details" name="item_details" value="Show details">          
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-10 -->
 <div class="item" data-item="11">
@@ -514,47 +510,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 11
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>           
-<input type="button" class="modal_details" name="item_details" value="Show details">          
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>           
+  <input type="button" class="modal_details" name="item_details" value="Show details">          
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-11 -->
 <div class="item" data-item="12">
@@ -562,47 +558,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 12
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>          
-<input type="button" class="modal_details" name="item_details" value="Show details">          
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>          
+  <input type="button" class="modal_details" name="item_details" value="Show details">          
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-12 -->
 <div class="item" data-item="13">
@@ -610,49 +606,49 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 13
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>
-<form> 
- <input type="button" class="modal_details" class="item_details" value="Show details"> 
-</form>
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>
+  <form> 
+   <input type="button" class="modal_details" class="item_details" value="Show details"> 
+ </form>
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-13 -->
 <div class="item" data-item="14">
@@ -660,47 +656,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 14
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>           
-<input type="button" class="modal_details" name="item_details" value="Show details">         
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>           
+  <input type="button" class="modal_details" name="item_details" value="Show details">         
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-14 -->
 <div class="item" data-item="15">
@@ -708,47 +704,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 15
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>          
-<input type="button" class="modal_details" name="item_details" value="Show details">          
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>          
+  <input type="button" class="modal_details" name="item_details" value="Show details">          
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
-    </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li><a href="#" class="link">1</a>
-</li>
-</ul>
-</div>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li><a href="#" class="link">1</a>
+     </li>
+   </ul>
+ </div>
 </div> 
 </div><!-- item-15 -->
 <div class="item" data-item="16"> 
@@ -756,47 +752,47 @@
    <div class="header-side-left clearfix">
      <img src="img/photo1.png" alt="#" class="photo">
      <p class="title-header">Piter Lundeen Smit</p>
- </div>
- <div class="header-side-right">
+   </div>
+   <div class="header-side-right">
      <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+   </div>
  </div>
-</div>
-<div class="content">
+ <div class="content">
   <div class="img-wrapper">
     <img src="http://placehold.it/125x100"  alt="#">
-</div>
-<div class="content-wrapper">
+  </div>
+  <div class="content-wrapper">
     <h4 class="content-title">
       Airbnb HQ 16
-  </h4>
-  <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
-</div>           
-<input type="button" class="modal_details" name="item_details" value="Show details">         
+    </h4>
+    <p class="content-subtitle">"Lorem ipsum dolor sit amet, elit. Similique rerum omnis eveniet hic iusto ducimus..."</p>
+  </div>           
+  <input type="button" class="modal_details" name="item_details" value="Show details">         
 </div>
 <div class="footer">
   <div class="footer-side-left">
     <ul class="footer-menu">
       <li><a href="#">
         <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+      </li>
+      <li><a href="#" class="link">0</a></li>
+      <li><a href="#" class="link">Like</a>
+      </li>
+      <li><a href="#" class="link">Share</a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer-side-right">
+   <ul class="footer-menu">
+     <li>
+       <a href="#">
+         <i class="fa fa-comment" aria-hidden="true"></i>
+       </a>
+     </li>
+     <li>
+      <a href="#" class="link">1</a>
     </li>
-    <li><a href="#" class="link">0</a></li>
-    <li><a href="#" class="link">Like</a>
-    </li>
-    <li><a href="#" class="link">Share</a>
-    </li>
-</ul>
-</div>
-<div class="footer-side-right">
- <ul class="footer-menu">
-   <li>
-     <a href="#">
-       <i class="fa fa-comment" aria-hidden="true"></i>
-   </a>
-</li>
-<li>
-    <a href="#" class="link">1</a>
-</li>
-</ul>
+  </ul>
 </div>
 </div> 
 </div><!-- item-16 -->
@@ -806,17 +802,17 @@
  <div class="container">    
    <div class="modal-img-wrapper">
      <img src="#" class="modal-img" alt="#">
- </div>
- <h2 class="mod_title"></h2>
- <div class="wrapper_description">
+   </div>
+   <h2 class="mod_title"></h2>
+   <div class="wrapper_description">
      <div class="subtitle_wrapper">
       <div class="circle"></div>          
       <h5 class="a_name">Autor name</h5>
+    </div>
+    <hr>            
+    <p class="mod_description"></p>      
   </div>
-  <hr>            
-  <p class="mod_description"></p>      
-</div>
-<span id="modal_close" class="fa fa-times" aria-hidden="true"></span>
+  <span id="modal_close" class="fa fa-times" aria-hidden="true"></span>
 </div>
 </div>
 </body>
