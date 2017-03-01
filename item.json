@@ -1,0 +1,165 @@
+[
+	{    
+		"dataItem": 1,
+		"headerImg": "img/photo1.png",
+		"headerTitle": "Piter Lundeen Smit",
+		"contentImg": "img/photo-1.jpg",
+		"contentTitle": "Airbnb HQ 1",
+		"contentSubtitle": "Lorem ipsum dolor sit amet, Jorge Salomon consectetur adipiscing elit."
+	},
+	{    
+		"dataItem": 2,
+		"headerImg": "img/photo2.png",
+		"headerTitle": "Sanjuan Latoyia Urenda",
+		"contentImg": "img/photo-2.jpg",
+		"contentTitle": "Airbnb HQ 2",
+		"contentSubtitle": "Ut blandit viverra diam luctus luctus. In Nilsa Mcnaughton tellus nunc."
+	},
+	{    
+		"dataItem": 3,
+		"headerImg": "img/photo3.png",
+		"headerTitle": "Jasper Renfrow",
+		"contentImg": "img/photo-3.jpg",
+		"contentTitle": "Airbnb HQ 3",
+		"contentSubtitle": "Nunc Delinda Mussman sagittis rhoncus hendrerit. Sed vel augue nisi, vel sagittis sem."
+	},
+	{    
+		"dataItem": 4,
+		"headerImg": "img/photo4.png",
+		"headerTitle": "Bettyann Obermiller",
+		"contentImg": "img/photo-4.jpg",
+		"contentTitle": "Airbnb HQ 4",
+		"contentSubtitle": "Charlesetta Archibald Aenean ante diam, rutrum ut eleifend in, convallis sed est."
+	},
+	{    
+		"dataItem": 5,
+		"headerImg": "img/photo5.png",
+		"headerTitle": "Cammy Gullickson",
+		"contentImg": "img/photo-5.jpg",
+		"contentTitle": "Airbnb HQ 5",
+		"contentSubtitle": "Delia Gragg Pellentesque eu ante quis metus dictum feugiat."
+	},
+	{    
+		"dataItem": 6,
+		"headerImg": "img/photo6.png",
+		"headerTitle": "Antonina Eldreth",
+		"contentImg": "img/photo-6.jpg",
+		"contentTitle": "Airbnb HQ 6",
+		"contentSubtitle": "Ut blandit volutpat Latesha Yarberry ante in commodo."
+	},
+	{    
+		"dataItem": 7,
+		"headerImg": "img/photo7.png",
+		"headerTitle": "Sanjuanita Carini",
+		"contentImg": "img/photo-7.jpg",
+		"contentTitle": "Airbnb HQ 7",
+		"contentSubtitle": "Duis quam lorem, lacinia nec tempus non, Chantelle Polizzi tristique sed turpis. In id est mi."
+	},
+	{    
+		"dataItem": 8,
+		"headerImg": "img/photo8.png",
+		"headerTitle": "Christy Record",
+		"contentImg": "img/photo-8.jpg",
+		"contentTitle": "Airbnb HQ 8",
+		"contentSubtitle": "Class aptent taciti Corinna Mcgill sociosqu ad litora torquent per conubia nostra."
+	},
+	{    
+		"dataItem": 9,
+		"headerImg": "img/photo9.png",
+		"headerTitle": "Wenona Koeppel",
+		"contentImg": "img/photo-9.jpg",
+		"contentTitle": "Airbnb HQ 9",
+		"contentSubtitle": "Willene Lovings Nunc ipsum libero, tempor et interdum quis, molestie commodo mauris."
+	},
+	{    
+		"dataItem": 10,
+		"headerImg": "img/photo10.png",
+		"headerTitle": "Delora Trigg",
+		"contentImg": "img/photo-10.jpg",
+		"contentTitle": "Airbnb HQ 10",
+		"contentSubtitle": "Fusce tempor, felis vel pellentesque luctus, enim lacus sagittis arcu."
+	},
+	{    
+		"dataItem": 11,
+		"headerImg": "img/photo11.png",
+		"headerTitle": "Angella Schreiber ",
+		"contentImg": "img/photo-11.jpg",
+		"contentTitle": "Airbnb HQ 11",
+		"contentSubtitle": "Wilbur Maxfield Aliquam sit amet erat sit amet elit consequat tempor. Etiam Damien."
+	},
+	{    
+		"dataItem": 12,
+		"headerImg": "img/photo12.png",
+		"headerTitle": "Rebecka Towle",
+		"contentImg": "img/photo-12.jpg",
+		"contentTitle": "Airbnb HQ 12",
+		"contentSubtitle": "Vivamus porttitor, orci id vestibulum consequat, quam Annabelle Vanwinkle odio elementum."
+	},
+	{    
+		"dataItem": 13,
+		"headerImg": "img/photo13.png",
+		"headerTitle": "Minta Flippen Smit",
+		"contentImg": "img/photo-13.jpg",
+		"contentTitle": "Airbnb HQ 13",
+		"contentSubtitle": "Praesent Merlene Snider dignissim dictum dignissim. Proin at elit eget lectus ultricies."
+	},
+	{    
+		"dataItem": 14,
+		"headerImg": "img/photo14.png",
+		"headerTitle": "Mellie Gass",
+		"contentImg": "img/photo-14.jpg",
+		"contentTitle": "Airbnb HQ 14",
+		"contentSubtitle": "Curabitur consequat magna magna, et fringilla ante. Jeanette Donathan Nunc facilisis."
+	},
+	{    
+		"dataItem": 15,
+		"headerImg": "img/photo15.png",
+		"headerTitle": "Karry Bellard Lundeen",
+		"contentImg": "img/photo-15.jpg",
+		"contentTitle": "Airbnb HQ 15",
+		"contentSubtitle": "Class aptent taciti sociosqu Shenika Sproul ad litora torquent per conubia nostra."
+	},
+	{    
+		"dataItem": 16,
+		"headerImg": "img/photo16.png",
+		"headerTitle": "Ita Carini Smit",
+		"contentImg": "img/photo-16.jpg",
+		"contentTitle": "Airbnb HQ 16",
+		"contentSubtitle": "Donec aliquet auctor eros, at venenatis ipsum Eugenia Leblanc dictum vitae."
+	},
+	{    
+		"dataItem": 17,
+		"headerImg": "img/photo2.png",
+		"headerTitle": "Sanjuan Latoyia Urenda",
+		"contentImg": "img/photo-2.jpg",
+		"contentTitle": "Airbnb HQ 17",
+		"contentSubtitle": "Ut blandit viverra diam luctus luctus. In Nilsa Mcnaughton tellus nunc."
+	},
+	{    
+		"dataItem": 18,
+		"headerImg": "img/photo3.png",
+		"headerTitle": "Jasper Renfrow",
+		"contentImg": "img/photo-3.jpg",
+		"contentTitle": "Airbnb HQ 18",
+		"contentSubtitle": "Nunc Delinda Mussman sagittis rhoncus hendrerit. Sed vel augue nisi, vel sagittis sem."
+	},
+	{    
+		"dataItem": 19,
+		"headerImg": "img/photo4.png",
+		"headerTitle": "Bettyann Obermiller",
+		"contentImg": "img/photo-4.jpg",
+		"contentTitle": "Airbnb HQ 19",
+		"contentSubtitle": "Charlesetta Archibald Aenean ante diam, rutrum ut eleifend in, convallis sed est."
+	},
+	{    
+		"dataItem": 20,
+		"headerImg": "img/photo5.png",
+		"headerTitle": "Cammy Gullickson",
+		"contentImg": "img/photo-5.jpg",
+		"contentTitle": "Airbnb HQ 20",
+		"contentSubtitle": "Delia Gragg Pellentesque eu ante quis metus dictum feugiat."
+	}
+]
+
+
+
