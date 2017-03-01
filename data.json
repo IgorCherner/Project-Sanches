@@ -1,0 +1,125 @@
+[
+	{    
+		"dataID": 1,
+		"modalImg": "img/photo-1.jpg",
+		"modTitle": "Title of PopUp",
+		"modDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit." 
+	},
+	{
+		"dataID": 2,
+		"modalImg": "img/photo-2.jpg",
+		"modTitle": "Presidential Suite",
+		"modDescription": "Class aptent taciti Corinna Mcgill sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Willene Lovings Nunc ipsum libero, tempor et interdum quis, molestie commodo mauris."
+	},
+	{
+		"dataID": 3,
+		"modalImg": "img/photo-3.jpg",
+		"modTitle": "Family room Suite",
+		"modDescription": "Duis quam lorem, lacinia nec tempus non, Chantelle Polizzi tristique sed turpis. In id est mi."
+	},
+	{
+		"dataID": 4,
+		"modalImg": "img/photo-4.jpg",
+		"modTitle": "Presidential Suite",
+		"modDescription": "Lynnette Dimick Fusce tempor, felis vel pellentesque luctus, enim lacus sagittis arcu, Kenna Andresen at mollis tellus mauris in dui."
+	},
+	{
+		"dataID": 5,
+		"modalImg": "img/photo-5.jpg",
+		"modTitle": "Presidential Suite",
+		"modDescription": "Wilbur Maxfield Aliquam sit amet erat sit amet elit consequat tempor. Etiam Damien Cribb a metus nunc."
+	},
+	{
+		"dataID": 6,
+		"modalImg": "img/photo-6.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Praesent Merlene Snider dignissim dictum dignissim. Proin at elit eget lectus ultricies tincidunt Nisha Goetzinger a faucibus elit. "
+	},
+	{
+		"dataID": 7,
+		"modalImg": "img/photo-7.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Curabitur consequat magna magna, et fringilla ante. Jeanette Donathan Nunc facilisis volutpat est et aliquam. "
+	},
+	{    
+		"dataID": 8,
+		"modalImg": "img/photo-8.jpg",
+		"modTitle": "Title of PopUp",
+		"modDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit." 
+	},
+	{
+		"dataID": 9,
+		"modalImg": "img/photo-9.jpg",
+		"modTitle": "Presidential Suite",
+		"modDescription": "Nunc facilisis volutpat est et aliquam. Class aptent taciti sociosqu Shenika Sproul ad litora torquent per conubia nostra, per inceptos himenaeos."
+	},
+	{
+		"dataID": 10,
+		"modalImg": "img/photo-10.jpg",
+		"modTitle": "Family room Suite",
+		"modDescription": "Nunc vel leo velit. Wilbur Maxfield Aliquam sit amet erat sit amet elit consequat tempor. Etiam Damien Cribb a metus nunc."
+	},
+	{
+		"dataID": 11,
+		"modalImg": "img/photo-11.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Lynnette Dimick Fusce tempor, felis vel pellentesque luctus, enim lacus sagittis arcu, Kenna Andresen at mollis tellus mauris in dui."
+	},
+	{
+		"dataID": 12,
+		"modalImg": "img/photo-12.jpg",
+		"modTitle": "Presidential Suite",
+		"modDescription": " Class aptent taciti Corinna Mcgill sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Willene Lovings Nunc ipsum libero, tempor et interdum quis, molestie commodo mauris."
+	},
+	{
+		"dataID": 13,
+		"modalImg": "img/photo-6.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	},
+	{
+		"dataID": 14,
+		"modalImg": "img/photo-5.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Delia Gragg Pellentesque eu ante quis metus dictum feugiat. Ut blandit volutpat Latesha Yarberry ante in commodo. Duis quam lorem, lacinia nec tempus non, Chantelle Polizzi tristique sed turpis."
+	},
+	{
+		"dataID": 15,
+		"modalImg": "img/photo-10.jpg",
+		"modTitle": "Family room Suite",
+		"modDescription": "Sit amet, Jorge Salomon consectetur adipiscing elit. "
+	},
+	{
+		"dataID": 16,
+		"modalImg": "img/photo-11.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Nunc Delinda Mussman sagittis rhoncus hendrerit. Sed vel augue nisi, vel sagittis sem. Charlesetta Archibald Aenean ante diam, rutrum ut eleifend in, convallis sed est."
+	},
+	{
+		"dataID": 17,
+		"modalImg": "img/photo-11.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Lynnette Dimick Fusce tempor, felis vel pellentesque luctus, enim lacus sagittis arcu, Kenna Andresen at mollis tellus mauris in dui."
+	},
+	{
+		"dataID": 18,
+		"modalImg": "img/photo-12.jpg",
+		"modTitle": "Presidential Suite",
+		"modDescription": " Class aptent taciti Corinna Mcgill sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Willene Lovings Nunc ipsum libero, tempor et interdum quis, molestie commodo mauris."
+	},
+	{
+		"dataID": 19,
+		"modalImg": "img/photo-6.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	},
+	{
+		"dataID": 20,
+		"modalImg": "img/photo-5.jpg",
+		"modTitle": "Family room Junior",
+		"modDescription": "Delia Gragg Pellentesque eu ante quis metus dictum feugiat. Ut blandit volutpat Latesha Yarberry ante in commodo. Duis quam lorem, lacinia nec tempus non, Chantelle Polizzi tristique sed turpis."
+	}
+]
+
+
+
