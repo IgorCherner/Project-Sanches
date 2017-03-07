@@ -5,6 +5,8 @@ $(function() {
 		currentPage: 1,
 		hrefTextPrefix: '',
 		hrefTextSuffix: '.html',
+		// prevText: 'Начало',
+		// nextText: 'Конец',
 		cssStyle: 'light-theme'
 	});
 });
@@ -20,10 +22,34 @@ function getSlice(arr, num) {
 	}
 
 }
+
+function getRangeOfPages(firstPage, lastPage) { 
+	var result = [];
+	var item = 0;
+	if(lastPage > pages.length)	{
+		console.log("последняя страница больше размера массива");
+		lastPage = pages.length;
+	}
+	if(firstPage > lastPage) {
+		console.log('поменяй местами номера страниц');
+		var buff = firstPage;
+		firstPage = lastPage;
+		lastPage = buff;
+	}	
+	for (var i = firstPage; i < lastPage; i++) {
+
+		for (var j = 0; j < pages[i].length; j++) {
+			result[item++] = pages[i][j];
+
+		}
+
+	}
+	return result;
+
+}
 // ----------------------------------------------
 
-var windowItems = [];
-
+var pages = [];
 
 function goToPage(pageNumber) {
 	var itemUrl = '/item.html';
@@ -32,6 +58,7 @@ function goToPage(pageNumber) {
 	$.getJSON(jsonUrl, function(json) {
 		cards = json.slice();
 
+
 		var n = 8, item = 0, numOfItems = 20; /*8-the number of cards per page, 20-It comes from the server*/
 		var m = parseInt(numOfItems / n); /*expects the rest of the cards displayed on the page*/
 		if(numOfItems % n != 0) {
@@ -39,16 +66,22 @@ function goToPage(pageNumber) {
 		}
 
 		for (var i = 0; i < m; i++){
-			windowItems[i] = [];
-			
+			pages[i] = [];
+
 			for (var j = 0; j < n; j++){
 				if(item < numOfItems){
-					windowItems[i][j] = cards[item++];
+					pages[i][j] = cards[item++];
+					
 					
 				}
 			}
 		}
-	});
+			// console.log(getRangeOfPages(0, cards.length));
+			$('#s-all').on('click', function() {
+				getRangeOfPages(0, cards.length);
+
+			});	
+		});
 	
 	$.ajax ({
 		url: itemUrl,
@@ -56,7 +89,7 @@ function goToPage(pageNumber) {
 			var $templateItem = $(item);
 			var html = '';
 
-			var slice = windowItems[pageNumber - 1];
+			var slice = pages[pageNumber - 1];
 			
 
 			$(slice).each(function(index, el) {
@@ -76,6 +109,7 @@ function goToPage(pageNumber) {
 
 			$('.wrap').html(html);
 			modalEventsHandler();
+						
 		}
 	});
 
